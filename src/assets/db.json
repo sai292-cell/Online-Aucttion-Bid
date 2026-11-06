@@ -1,0 +1,1077 @@
+{
+  "categories": [
+    { "id": "watches", "name": "Watches", "icon": "bi-watch", "description": "Luxury Swiss timepieces, vintage grails, chronographs" },
+    { "id": "electronics", "name": "Electronics", "icon": "bi-laptop", "description": "High-end computing, pro audio, cameras & drones" },
+    { "id": "art", "name": "Art", "icon": "bi-palette", "description": "Original canvases, sculptures, limited prints & lithographs" },
+    { "id": "furniture", "name": "Furniture", "icon": "bi-lamp", "description": "Mid-century modern, antique woodcraft & statement decor" },
+    { "id": "collectibles", "name": "Collectibles", "icon": "bi-award", "description": "Rare coins, signed sports memorabilia & trading cards" },
+    { "id": "fashion", "name": "Fashion", "icon": "bi-handbag", "description": "Haute couture, deadstock sneakers & luxury accessories" },
+    { "id": "music", "name": "Music", "icon": "bi-music-note-beamed", "description": "Vintage guitars, tube amplifiers, vinyl records & synths" },
+    { "id": "vehicles", "name": "Vehicles", "icon": "bi-car-front", "description": "Classic roadsters, superbikes & collector automobiles" }
+  ],
+  "botNames": [
+    "Aarav Mehta",
+    "Diya Kapoor",
+    "Kabir Singhania",
+    "Meera Nair",
+    "Rohan Deshmukh",
+    "Sneha Iyer",
+    "Vihaan Reddy",
+    "Anaya Joshi"
+  ],
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Vikram Malhotra",
+      "email": "admin@bidbazaar.com",
+      "password": "Password@123",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "wallet": 500000,
+      "phone": "+91 98765 43210",
+      "isBlocked": false,
+      "joined": "2024-01-15"
+    },
+    {
+      "id": "u-seller",
+      "name": "Heritage Horology",
+      "email": "seller@bidbazaar.com",
+      "password": "Password@123",
+      "role": "seller",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "wallet": 285000,
+      "phone": "+91 98230 11223",
+      "isBlocked": false,
+      "joined": "2024-03-20"
+    },
+    {
+      "id": "u-buyer",
+      "name": "Sarthak Sharma",
+      "email": "buyer@bidbazaar.com",
+      "password": "Password@123",
+      "role": "buyer",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "wallet": 175000,
+      "phone": "+91 97110 99887",
+      "isBlocked": false,
+      "joined": "2024-06-10"
+    },
+    {
+      "id": "u-4",
+      "name": "Priya Patel",
+      "email": "priya.p@example.com",
+      "password": "Password@123",
+      "role": "buyer",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "wallet": 92000,
+      "phone": "+91 94560 33445",
+      "isBlocked": false,
+      "joined": "2024-04-12"
+    },
+    {
+      "id": "u-5",
+      "name": "CyberTech Auctions",
+      "email": "cybertech@example.com",
+      "password": "Password@123",
+      "role": "seller",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "wallet": 340000,
+      "phone": "+91 91234 56789",
+      "isBlocked": false,
+      "joined": "2024-02-18"
+    },
+    {
+      "id": "u-6",
+      "name": "Rahul Verma",
+      "email": "rahul.v@example.com",
+      "password": "Password@123",
+      "role": "buyer",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+      "wallet": 64000,
+      "phone": "+91 99887 76655",
+      "isBlocked": false,
+      "joined": "2024-05-01"
+    },
+    {
+      "id": "u-7",
+      "name": "Artisan Guild",
+      "email": "artisan@example.com",
+      "password": "Password@123",
+      "role": "seller",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "wallet": 195000,
+      "phone": "+91 98112 23344",
+      "isBlocked": false,
+      "joined": "2024-01-29"
+    },
+    {
+      "id": "u-8",
+      "name": "Ananya Sen",
+      "email": "ananya.s@example.com",
+      "password": "Password@123",
+      "role": "buyer",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "wallet": 110000,
+      "phone": "+91 97766 55443",
+      "isBlocked": false,
+      "joined": "2024-07-04"
+    },
+    {
+      "id": "u-9",
+      "name": "Vintage Wheels Co.",
+      "email": "wheels@example.com",
+      "password": "Password@123",
+      "role": "seller",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+      "wallet": 620000,
+      "phone": "+91 96543 21098",
+      "isBlocked": false,
+      "joined": "2024-02-05"
+    },
+    {
+      "id": "u-10",
+      "name": "Rohan Gupta",
+      "email": "rohan.g@example.com",
+      "password": "Password@123",
+      "role": "buyer",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "wallet": 45000,
+      "phone": "+91 95432 10987",
+      "isBlocked": false,
+      "joined": "2024-08-11"
+    },
+    {
+      "id": "u-11",
+      "name": "Sneha Rao",
+      "email": "sneha.r@example.com",
+      "password": "Password@123",
+      "role": "buyer",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "wallet": 83000,
+      "phone": "+91 94321 09876",
+      "isBlocked": true,
+      "joined": "2024-06-25"
+    },
+    {
+      "id": "u-12",
+      "name": "Prime Super Admin",
+      "email": "superadmin@bidbazaar.com",
+      "password": "Password@123",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "wallet": 1000000,
+      "phone": "+91 93210 98765",
+      "isBlocked": false,
+      "joined": "2024-01-01"
+    }
+  ],
+  "auctions": [
+    {
+      "id": 1,
+      "title": "Rolex Submariner Date Ref. 16610 (1998)",
+      "category": "Watches",
+      "condition": "Vintage",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 420000,
+      "reservePrice": 470000,
+      "buyNowPrice": 560000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 4,
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.9,
+      "featured": true,
+      "description": "Legendary neo-vintage Rolex Submariner 16610 in pristine condition. Features Swiss-T dial with beautiful light cream patina, crisp unidirectional bezel, original oyster bracelet 93150 with solid end links. Inspected and pressure tested to 300m with 1-year warranty certificate.",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1547996160-71dfabb1d467?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-101", "bidder": "Kabir Singhania", "amount": 425000, "time": 1709683200000 },
+        { "id": "b-102", "bidder": "Aarav Mehta", "amount": 435000, "time": 1709684100000 },
+        { "id": "b-103", "bidder": "Diya Kapoor", "amount": 450000, "time": 1709685000000 }
+      ],
+      "questions": [
+        { "id": "q-1", "user": "Rohan Gupta", "question": "Does this include the original green presentation box?", "answer": "Yes! Original inner/outer box, punched papers and green tag are included.", "time": 1709681000000 }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Leica M11 Rangefinder Camera 60MP Body",
+      "category": "Electronics",
+      "condition": "Like New",
+      "seller": "CyberTech Auctions",
+      "sellerRating": 4.8,
+      "sellerSales": 89,
+      "startPrice": 380000,
+      "reservePrice": 410000,
+      "buyNowPrice": 490000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 9,
+      "location": "Bengaluru, Karnataka",
+      "rating": 4.8,
+      "featured": true,
+      "description": "Barely used Leica M11 black paint edition. Triple Resolution Sensor technology (60MP/36MP/18MP), 64GB internal memory, sapphire glass display with zero micro-scratches. Shutter count under 1,200. Comes with Leica BP-SCL7 battery, leather half case, and presentation box.",
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-201", "bidder": "Sneha Iyer", "amount": 385000, "time": 1709682000000 },
+        { "id": "b-202", "bidder": "Vihaan Reddy", "amount": 395000, "time": 1709684500000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 3,
+      "title": "Antique Victorian Rosewood Roll-Top Secretary Desk (c. 1885)",
+      "category": "Furniture",
+      "condition": "Vintage",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 75000,
+      "reservePrice": 90000,
+      "buyNowPrice": 125000,
+      "bidIncrement": 2000,
+      "endsInMinutes": 22,
+      "location": "Kolkata, West Bengal",
+      "rating": 4.7,
+      "featured": false,
+      "description": "Authentic museum-grade English Victorian cylinder roll-top desk crafted from solid Brazilian rosewood with intricate floral marquetry inlay. Features 8 hidden interior apothecary drawers, tooled Morocco green leather writing slope, and original brass lock mechanism with keys.",
+      "images": [
+        "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-301", "bidder": "Meera Nair", "amount": 77000, "time": 1709681100000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 4,
+      "title": "ICC World Cup 2011 Final Squad Signed Kookaburra Bat",
+      "category": "Collectibles",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 95000,
+      "reservePrice": 120000,
+      "buyNowPrice": 180000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 3,
+      "location": "Mumbai, Maharashtra",
+      "rating": 5.0,
+      "featured": true,
+      "description": "Priceless piece of Indian sporting history. Limited edition full-size match willow signed in indelible ink by MS Dhoni, Sachin Tendulkar, Yuvraj Singh, Virat Kohli, and all 15 members of the victorious 2011 championship squad. Encased in museum-grade UV reflective acrylic with holograph COA.",
+      "images": [
+        "https://images.unsplash.com/photo-1531415074868-036b107e775a?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-401", "bidder": "Aarav Mehta", "amount": 97500, "time": 1709681200000 },
+        { "id": "b-402", "bidder": "Rohan Deshmukh", "amount": 105000, "time": 1709682500000 },
+        { "id": "b-403", "bidder": "Vihaan Reddy", "amount": 112500, "time": 1709683900000 },
+        { "id": "b-404", "bidder": "Kabir Singhania", "amount": 122500, "time": 1709685000000 }
+      ],
+      "questions": [
+        { "id": "q-2", "user": "Vihaan Reddy", "question": "Is the certificate authenticated by BCCI or PSA?", "answer": "Authenticated by Legends Memorabilia Australia with official hologram verified on public ledger.", "time": 1709682000000 }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Apple MacBook Pro 16\" M3 Max (128GB Unified, 4TB SSD)",
+      "category": "Electronics",
+      "condition": "Brand New",
+      "seller": "CyberTech Auctions",
+      "sellerRating": 4.8,
+      "sellerSales": 89,
+      "startPrice": 270000,
+      "reservePrice": 300000,
+      "buyNowPrice": 360000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 45,
+      "location": "Hyderabad, Telangana",
+      "rating": 4.9,
+      "featured": true,
+      "description": "Brand new sealed in box Apple MacBook Pro 16 Space Black. Top configuration: 16-core CPU, 40-core GPU, 128GB unified memory, and lightning-fast 4TB NVMe SSD. Liquid Retina XDR screen with 120Hz ProMotion. Includes full 3-year AppleCare+ transferable coverage.",
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-501", "bidder": "Diya Kapoor", "amount": 275000, "time": 1709684000000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 6,
+      "title": "Original Impasto Canvas 'Varanasi at Twilight' by M. Sharma",
+      "category": "Art",
+      "condition": "Brand New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 48000,
+      "reservePrice": 60000,
+      "buyNowPrice": 85000,
+      "bidIncrement": 1500,
+      "endsInMinutes": 18,
+      "location": "Varanasi, Uttar Pradesh",
+      "rating": 4.8,
+      "featured": true,
+      "description": "Spectacular 48\"x36\" heavy textured impasto oil on Belgian linen canvas. Captures the glowing earthen lamps drifting on the holy Ganges River during the evening Ganga Aarti. Hand-signed lower recto, accompanied by National Gallery registered certificate of authenticity.",
+      "images": [
+        "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1582561141978-8edda9f99da3?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-601", "bidder": "Anaya Joshi", "amount": 49500, "time": 1709681500000 },
+        { "id": "b-602", "bidder": "Sneha Iyer", "amount": 52500, "time": 1709683200000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 7,
+      "title": "Gibson Custom 1959 Les Paul Standard Reissue Murphy Lab",
+      "category": "Music",
+      "condition": "Like New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 320000,
+      "reservePrice": 350000,
+      "buyNowPrice": 425000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 2,
+      "location": "Pune, Maharashtra",
+      "rating": 5.0,
+      "featured": true,
+      "description": "The Holy Grail of electric guitars. Murphy Lab Ultra Light Aged Cherry Sunburst finish with authentic lacquer weather-checking. Solid unchambered 1-piece lightweight mahogany body with hand-selected figured maple top and CustomBucker unpotted Alnico III pickups. Deluxe Lifton 5-latch hardshell case.",
+      "images": [
+        "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-701", "bidder": "Vihaan Reddy", "amount": 325000, "time": 1709682200000 },
+        { "id": "b-702", "bidder": "Kabir Singhania", "amount": 335000, "time": 1709683800000 },
+        { "id": "b-703", "bidder": "Rohan Deshmukh", "amount": 345000, "time": 1709684900000 }
+      ],
+      "questions": [
+        { "id": "q-3", "user": "Rohan Gupta", "question": "What is the total weight on a calibrated digital scale?", "answer": "Exact weight is 8 lbs 9 oz (3.88 kg), perfectly balanced.", "time": 1709683000000 }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "1973 Royal Enfield Bullet 350 Cast Iron Engine (Restored)",
+      "category": "Vehicles",
+      "condition": "Refurbished",
+      "seller": "Vintage Wheels Co.",
+      "sellerRating": 4.9,
+      "sellerSales": 48,
+      "startPrice": 140000,
+      "reservePrice": 160000,
+      "buyNowPrice": 210000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 55,
+      "location": "Chandigarh, Punjab",
+      "rating": 4.9,
+      "featured": true,
+      "description": "Immaculately restored classic right-side gear shifter 1973 Bullet 350. Heavy flywheel, original points ignition system, brass accents, hand-painted gold coachlines on British racing green tank, and period-correct Lucas headlight amp meter. Clear RC papers and clean registration valid pan-India.",
+      "images": [
+        "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1558980664-3a031cf67ea8?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1558981420-87aa9dad1c89?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-801", "bidder": "Aarav Mehta", "amount": 142500, "time": 1709681500000 },
+        { "id": "b-802", "bidder": "Meera Nair", "amount": 147500, "time": 1709683200000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 9,
+      "title": "Omega Speedmaster Professional 'Moonwatch' Hesalite",
+      "category": "Watches",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 310000,
+      "reservePrice": 340000,
+      "buyNowPrice": 410000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 32,
+      "location": "New Delhi, Delhi",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Co-Axial Master Chronometer Calibre 3861 manual wind movement. Faithful step dial, dot over ninety (DON) anodised aluminium bezel ring, and classic stepped hesaslite crystal with embedded mini Omega Greek symbol. Full collector set with moon astronaut medallion.",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1547996160-71dfabb1d467?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-901", "bidder": "Diya Kapoor", "amount": 315000, "time": 1709682900000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 10,
+      "title": "Hermès Birkin 30 Togo Leather Gold Hardware",
+      "category": "Fashion",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 650000,
+      "reservePrice": 750000,
+      "buyNowPrice": 920000,
+      "bidIncrement": 10000,
+      "endsInMinutes": 75,
+      "location": "Mumbai, Maharashtra",
+      "rating": 5.0,
+      "featured": true,
+      "description": "Authentic Hermès Birkin 30 in highly sought-after Etoupe grained Togo calfskin with gleaming 24K gold plated hardware. Clochette, lock, two keys, rain protector, dust bags and original orange Hermès magnetic hatbox. Verified through Entrupy blockchain authentication.",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1001", "bidder": "Sneha Iyer", "amount": 660000, "time": 1709684100000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 11,
+      "title": "Hasselblad 907X 50C Medium Format Mirrorless",
+      "category": "Electronics",
+      "condition": "Brand New",
+      "seller": "CyberTech Auctions",
+      "sellerRating": 4.8,
+      "sellerSales": 89,
+      "startPrice": 420000,
+      "reservePrice": 460000,
+      "buyNowPrice": 530000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 110,
+      "location": "Bengaluru, Karnataka",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Stunning Swedish medium format modular camera system. 50MP CMOS sensor delivers 14 stops dynamic range and iconic Hasselblad Natural Colour Solution (HNCS). Retro chrome trim, tilting 3.2-inch touchscreen, and dual UHS-II SD slots.",
+      "images": [
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [],
+      "questions": []
+    },
+    {
+      "id": 12,
+      "title": "Eames Lounge Chair & Ottoman (Santos Palisander & Black Leather)",
+      "category": "Furniture",
+      "condition": "Like New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 240000,
+      "reservePrice": 270000,
+      "buyNowPrice": 320000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 62,
+      "location": "Gurugram, Haryana",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Authentic licensed Herman Miller Charles & Ray Eames Lounge Chair and Ottoman. Santos Palisander 7-ply molded veneer shells upholstered in premium supple semi-aniline black MCL leather. Die-cast aluminum swivel base with adjustable glides.",
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1201", "bidder": "Kabir Singhania", "amount": 245000, "time": 1709683900000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 13,
+      "title": "Air Jordan 1 Retro High OG 'Chicago 1985' Deadstock",
+      "category": "Fashion",
+      "condition": "Vintage",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 185000,
+      "reservePrice": 220000,
+      "buyNowPrice": 280000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 15,
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.8,
+      "featured": true,
+      "description": "Museum tier 1985 original Korean-factory production Air Jordan 1 Chicago colorway (Style 4280). Size US 10.5. Leather collar shows natural honest vintage patina, original white laces, factory stampings inside collar remain crisp and legible.",
+      "images": [
+        "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1301", "bidder": "Rohan Deshmukh", "amount": 187500, "time": 1709682500000 },
+        { "id": "b-1302", "bidder": "Aarav Mehta", "amount": 192500, "time": 1709684100000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 14,
+      "title": "Fender Custom Shop '60 Stratocaster Heavy Relic Daphne Blue",
+      "category": "Music",
+      "condition": "Brand New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 210000,
+      "reservePrice": 240000,
+      "buyNowPrice": 290000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 80,
+      "location": "Bengaluru, Karnataka",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Masterbuilt Corona California creation. Two-piece select alder body finished in nitrocellulose lacquer with authentic heavy relic aging showing vintage 3-tone sunburst underneath. Hand-wound Texas Special single-coil pickups, AAA rosewood fretboard with 9.5\" radius.",
+      "images": [
+        "https://images.unsplash.com/photo-1550291652-6ea9114a47b1?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1401", "bidder": "Vihaan Reddy", "amount": 212500, "time": 1709684600000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 15,
+      "title": "Moog Minimoog Model D Analog Synthesizer (2022 Reissue)",
+      "category": "Music",
+      "condition": "Like New",
+      "seller": "CyberTech Auctions",
+      "sellerRating": 4.8,
+      "sellerSales": 89,
+      "startPrice": 260000,
+      "reservePrice": 290000,
+      "buyNowPrice": 340000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 140,
+      "location": "Chennai, Tamil Nadu",
+      "rating": 4.8,
+      "featured": false,
+      "description": "Handcrafted at the Moog Factory in Asheville, NC. Identical circuit topology to the 1970 legendary synth: 3 voltage-controlled oscillators, Moog ladder low-pass filter, and satin Appalachian hardwood cabinet. MIDI in/out/thru integration.",
+      "images": [
+        "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [],
+      "questions": []
+    },
+    {
+      "id": 16,
+      "title": "1967 Vespa Sprint 150 Veloce Italian Scooter",
+      "category": "Vehicles",
+      "condition": "Refurbished",
+      "seller": "Vintage Wheels Co.",
+      "sellerRating": 4.9,
+      "sellerSales": 48,
+      "startPrice": 120000,
+      "reservePrice": 145000,
+      "buyNowPrice": 190000,
+      "bidIncrement": 2000,
+      "endsInMinutes": 5,
+      "location": "Goa, India",
+      "rating": 5.0,
+      "featured": true,
+      "description": "True vintage Italian styling from the Dolce Vita golden era. Original Piaggio chassis with full nut-and-bolt mechanical rebuild, upgraded 12V CDI ignition for bulletproof reliability, pastel sky blue polyurethane finish, and whitewall Continental vintage tires.",
+      "images": [
+        "https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1558980664-3a031cf67ea8?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1601", "bidder": "Sneha Iyer", "amount": 122000, "time": 1709683000000 },
+        { "id": "b-1602", "bidder": "Diya Kapoor", "amount": 126000, "time": 1709684400000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 17,
+      "title": "Patek Philippe Calatrava Ref. 5196G 18K White Gold",
+      "category": "Watches",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 890000,
+      "reservePrice": 980000,
+      "buyNowPrice": 1250000,
+      "bidIncrement": 10000,
+      "endsInMinutes": 95,
+      "location": "Mumbai, Maharashtra",
+      "rating": 5.0,
+      "featured": true,
+      "description": "Pure horological perfection and the timeless essence of the round dress watch. 37mm 18k white gold case housing the manual-wind Calibre 215 PS with small seconds at 6 o'clock. Silver opaline dial with applied faceted white gold baton hour markers. All papers and box.",
+      "images": [
+        "https://images.unsplash.com/photo-1547996160-71dfabb1d467?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1701", "bidder": "Kabir Singhania", "amount": 900000, "time": 1709684800000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 18,
+      "title": "1840 Queen Victoria One Mohur Gold Coin (Calcutta Mint)",
+      "category": "Collectibles",
+      "condition": "Vintage",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 160000,
+      "reservePrice": 190000,
+      "buyNowPrice": 240000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 38,
+      "location": "New Delhi, Delhi",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Rare British India high-denomination currency. Continuous legend variety, 11.66 grams of 0.917 fine gold. Graded MS62 by NGC with flawless strike details on young Queen Victoria bust and majestic royal British lion walking under the palm tree on reverse.",
+      "images": [
+        "https://images.unsplash.com/photo-1610375461246-83df859d849d?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1801", "bidder": "Vihaan Reddy", "amount": 162500, "time": 1709683100000 },
+        { "id": "b-1802", "bidder": "Aarav Mehta", "amount": 167500, "time": 1709684900000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 19,
+      "title": "Sony Alpha 1 Mirrorless Digital Flagship (50.1MP 8K Video)",
+      "category": "Electronics",
+      "condition": "Like New",
+      "seller": "CyberTech Auctions",
+      "sellerRating": 4.8,
+      "sellerSales": 89,
+      "startPrice": 340000,
+      "reservePrice": 375000,
+      "buyNowPrice": 440000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 8,
+      "location": "Ahmedabad, Gujarat",
+      "rating": 4.8,
+      "featured": true,
+      "description": "The one camera that does it all. 50.1MP full-frame Exmor RS stacked sensor capable of shooting 30 fps blackout-free continuous bursts and 8.6K oversampled 8K 30p internal recording. Includes vertical grip, dual 160GB CFexpress Type A cards and card reader.",
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-1901", "bidder": "Anaya Joshi", "amount": 345000, "time": 1709683400000 },
+        { "id": "b-1902", "bidder": "Rohan Deshmukh", "amount": 355000, "time": 1709684700000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 20,
+      "title": "Cast Bronze Nataraja Lord Shiva Cosmic Dance (18th Century)",
+      "category": "Art",
+      "condition": "Vintage",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 180000,
+      "reservePrice": 220000,
+      "buyNowPrice": 290000,
+      "bidIncrement": 5000,
+      "endsInMinutes": 160,
+      "location": "Thanjavur, Tamil Nadu",
+      "rating": 5.0,
+      "featured": true,
+      "description": "Magnificent lost-wax (cire perdue) cast bronze sculpture of Shiva Nataraja dancing within an aura of flames (prabhamandala). Features rich dark olive verdigris patina acquired over two centuries of traditional veneration. Stands 26 inches tall, 16.5 kg total weight.",
+      "images": [
+        "https://images.unsplash.com/photo-1582561141978-8edda9f99da3?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-2001", "bidder": "Meera Nair", "amount": 185000, "time": 1709684000000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 21,
+      "title": "Chesterfield 3-Seater Tufted Sofa in Oxblood Italian Leather",
+      "category": "Furniture",
+      "condition": "Brand New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 85000,
+      "reservePrice": 110000,
+      "buyNowPrice": 145000,
+      "bidIncrement": 2000,
+      "endsInMinutes": 40,
+      "location": "Jaipur, Rajasthan",
+      "rating": 4.7,
+      "featured": false,
+      "description": "Timeless luxury deep-buttoned English Chesterfield sofa hand-built on seasoned solid teakwood framing. Upholstered in imported top-grain pull-up Italian leather in antique oxblood shade. Individual brass nail-head studding hand-tapped along scrolled armrests.",
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-2101", "bidder": "Diya Kapoor", "amount": 87000, "time": 1709683900000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 22,
+      "title": "Louis Vuitton Horizon 55 Rolling Monogram Suitcase",
+      "category": "Fashion",
+      "condition": "Brand New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 190000,
+      "reservePrice": 225000,
+      "buyNowPrice": 270000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 12,
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.8,
+      "featured": false,
+      "description": "Designed by industrial designer Marc Newson. Ultra-lightweight cabin luggage crafted in classic monogram canvas. Wide exterior cane cane handle leaves interior completely flat for optimal packing space. 4 double silent rolling wheels and TSA combination lock.",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-2201", "bidder": "Kabir Singhania", "amount": 192500, "time": 1709684100000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 23,
+      "title": "Audemars Piguet Royal Oak 'Jumbo' Extra-Thin 15202ST",
+      "category": "Watches",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 1850000,
+      "reservePrice": 2100000,
+      "buyNowPrice": 2600000,
+      "bidIncrement": 25000,
+      "endsInMinutes": 180,
+      "location": "Bengaluru, Karnataka",
+      "rating": 5.0,
+      "featured": true,
+      "description": "Gérald Genta's crowning masterpiece. 39mm stainless steel monobloc case measuring an ultra-thin 8.1mm. Iconic 'Petite Tapisserie' blue dial with white gold applied hour markers and Royal Oak hands with luminescent coating. Calibre 2121 automatic movement.",
+      "images": [
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1547996160-71dfabb1d467?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [],
+      "questions": []
+    },
+    {
+      "id": 24,
+      "title": "1994 Michael Jordan Signed Bulls Jersey (Upper Deck Authenticated)",
+      "category": "Collectibles",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 110000,
+      "reservePrice": 135000,
+      "buyNowPrice": 195000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 28,
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.9,
+      "featured": true,
+      "description": "Official Champion red Chicago Bulls #23 road jersey signed by the Greatest of All Time, Michael Jordan, across his jersey number in bold silver paint pen. Comes with dual hologram verification and matching numbered certificate card from Upper Deck Authenticated (UDA).",
+      "images": [
+        "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1519766304817-4f37bda74a29?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-2401", "bidder": "Aarav Mehta", "amount": 112500, "time": 1709683600000 },
+        { "id": "b-2402", "bidder": "Vihaan Reddy", "amount": 117500, "time": 1709684500000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 25,
+      "title": "Bang & Olufsen Beolab 50 High-End Wireless Audiophile Speakers",
+      "category": "Electronics",
+      "condition": "Like New",
+      "seller": "CyberTech Auctions",
+      "sellerRating": 4.8,
+      "sellerSales": 89,
+      "startPrice": 750000,
+      "reservePrice": 850000,
+      "buyNowPrice": 1050000,
+      "bidIncrement": 10000,
+      "endsInMinutes": 150,
+      "location": "New Delhi, Delhi",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Pair of active architectural floorstanding loudspeakers delivering 2,100 watts of custom amplification per channel. Equipped with Acoustic Lens Technology that mechanically rises upon powering on, alongside Active Room Compensation calibration microphone.",
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [],
+      "questions": []
+    },
+    {
+      "id": 26,
+      "title": "Handcrafted Solid Teakwood 8-Seater Royal Dining Table",
+      "category": "Furniture",
+      "condition": "Brand New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 92000,
+      "reservePrice": 120000,
+      "buyNowPrice": 165000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 70,
+      "location": "Jodhpur, Rajasthan",
+      "rating": 4.8,
+      "featured": false,
+      "description": "Artisan sculpted from single continuous slabs of aged Central Indian teak (CP Teak). Features live organic tree bark natural edging with matte protective polyurethane sealant, accompanied by 8 high-back upholstered dining chairs in rich emerald velvet.",
+      "images": [
+        "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-2601", "bidder": "Sneha Iyer", "amount": 94500, "time": 1709684100000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 27,
+      "title": "Pikachu Illustrator Promo Card Holo (PSA 9 Mint Condition)",
+      "category": "Collectibles",
+      "condition": "Like New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 450000,
+      "reservePrice": 520000,
+      "buyNowPrice": 680000,
+      "bidIncrement": 10000,
+      "endsInMinutes": 210,
+      "location": "Bengaluru, Karnataka",
+      "rating": 5.0,
+      "featured": true,
+      "description": "Considered the rarest trading card in existence. Created by original Pokémon character artist Atsuko Nishida for CoroCoro Comic contest winners in 1998. Encapsulated in tamper-proof PSA sonic-welded slab with subgrades 9.5 centering, 9 corners, 9 edges, 9 surface.",
+      "images": [
+        "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1610375461246-83df859d849d?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [],
+      "questions": []
+    },
+    {
+      "id": 28,
+      "title": "1969 Ford Mustang Fastback 302 V8 'Mach 1' Tribute",
+      "category": "Vehicles",
+      "condition": "Refurbished",
+      "seller": "Vintage Wheels Co.",
+      "sellerRating": 4.9,
+      "sellerSales": 48,
+      "startPrice": 1850000,
+      "reservePrice": 2200000,
+      "buyNowPrice": 2800000,
+      "bidIncrement": 25000,
+      "endsInMinutes": 240,
+      "location": "Mumbai, Maharashtra",
+      "rating": 5.0,
+      "featured": true,
+      "description": "American muscle royalty. Rebuilt small-block 302 ci V8 breathing through Holley 4-barrel carburetors producing 340 bhp, mated to a Tremec 5-speed manual gearbox. Raven black bodywork with gold Mach 1 reflective decals, shaker hood scoop, and rear window louvers.",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-2801", "bidder": "Kabir Singhania", "amount": 1875000, "time": 1709683900000 }
+      ],
+      "questions": []
+    },
+    {
+      "id": 29,
+      "title": "Abstract Geometric Bronze Sculpture 'Metamorphosis' by S. Roy",
+      "category": "Art",
+      "condition": "Brand New",
+      "seller": "Artisan Guild",
+      "sellerRating": 4.9,
+      "sellerSales": 112,
+      "startPrice": 62000,
+      "reservePrice": 75000,
+      "buyNowPrice": 105000,
+      "bidIncrement": 2000,
+      "endsInMinutes": 85,
+      "location": "New Delhi, Delhi",
+      "rating": 4.7,
+      "featured": false,
+      "description": "Original modern minimalist bronze sculpture mounted upon a polished black Belgian marble base. Cast as edition 1 of 5 by renowned contemporary sculptor Sanjoy Roy. Exemplifies balance, spatial tension, and movement. Dimensions: 32\"H x 14\"W x 10\"D.",
+      "images": [
+        "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1582561141978-8edda9f99da3?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [],
+      "questions": []
+    },
+    {
+      "id": 30,
+      "title": "Tudor Black Bay 58 Navy Blue Automatic 39mm",
+      "category": "Watches",
+      "condition": "Brand New",
+      "seller": "Heritage Horology",
+      "sellerRating": 4.9,
+      "sellerSales": 164,
+      "startPrice": 220000,
+      "reservePrice": 245000,
+      "buyNowPrice": 290000,
+      "bidIncrement": 2500,
+      "endsInMinutes": 50,
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.9,
+      "featured": false,
+      "description": "Award-winning dive watch celebrating the historic blue French Marine Nationale Tudors. Manufacture Calibre MT5402 with COSC chronometer certification and 70-hour weekend-proof power reserve. Snowflake hands, domed sapphire glass, rivet steel bracelet.",
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=900&auto=format&fit=crop&q=80"
+      ],
+      "bids": [
+        { "id": "b-3001", "bidder": "Aarav Mehta", "amount": 222500, "time": 1709684300000 }
+      ],
+      "questions": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "u-buyer",
+      "title": "Outbid Alert!",
+      "message": "You were outbid on 'Rolex Submariner Date' by Diya Kapoor (₹4,50,000). Place a counter-bid before it ends!",
+      "time": 1709685000000,
+      "read": false,
+      "type": "outbid",
+      "auctionId": 1
+    },
+    {
+      "id": "notif-2",
+      "userId": "u-buyer",
+      "title": "Auction Ending Soon",
+      "message": "Signed Cricket Bat 2011 is ending in under 5 minutes! Don't miss your chance.",
+      "time": 1709684500000,
+      "read": false,
+      "type": "ending",
+      "auctionId": 4
+    },
+    {
+      "id": "notif-3",
+      "userId": "u-buyer",
+      "title": "Wallet Credited",
+      "message": "₹50,000 top-up has been successfully credited to your BidBazaar wallet.",
+      "time": 1709680000000,
+      "read": true,
+      "type": "wallet",
+      "auctionId": 0
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "seller": "Heritage Horology",
+      "buyerName": "Kabir S.",
+      "rating": 5,
+      "comment": "Watch was delivered in bulletproof armored packaging within 48 hours. Completely authentic, runs at +1 sec/day!",
+      "time": 1709590000000,
+      "itemTitle": "Omega Speedmaster Professional"
+    },
+    {
+      "id": "rev-2",
+      "seller": "Artisan Guild",
+      "buyerName": "Priya P.",
+      "rating": 5,
+      "comment": "The Victorian desk looks even more breathtaking in person. Exemplary craftsmanship and clear communications.",
+      "time": 1709500000000,
+      "itemTitle": "Antique Victorian Rosewood Desk"
+    },
+    {
+      "id": "rev-3",
+      "seller": "CyberTech Auctions",
+      "buyerName": "Rohan D.",
+      "rating": 4,
+      "comment": "Camera arrived sealed as described. Shutter count was accurate. Highly recommended seller.",
+      "time": 1709420000000,
+      "itemTitle": "Leica M11 Body"
+    }
+  ],
+  "sampleOrders": [
+    {
+      "id": "ORD-98214",
+      "auctionId": 9,
+      "auctionTitle": "Omega Speedmaster Professional 'Moonwatch' Hesalite",
+      "auctionImage": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&auto=format&fit=crop&q=80",
+      "buyerId": "u-buyer",
+      "buyerName": "Sarthak Sharma",
+      "seller": "Heritage Horology",
+      "finalAmount": 345000,
+      "shippingFee": 1500,
+      "tax": 10350,
+      "totalPaid": 356850,
+      "shippingAddress": {
+        "fullName": "Sarthak Sharma",
+        "street": "Flat 402, Lotus Towers, Andheri West",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400053",
+        "phone": "+91 97110 99887"
+      },
+      "paymentMethod": "wallet",
+      "orderDate": 1709500000000,
+      "status": "Delivered",
+      "hasReviewed": false
+    }
+  ]
+}
